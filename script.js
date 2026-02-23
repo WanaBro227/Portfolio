@@ -18,3 +18,10 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1200,
     loop: true,
 });
+
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.onclick = () => {
+        menu.classList.remove('bx-x');
+        navbar.classList.remove('active');
+    }
+});
