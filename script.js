@@ -11,15 +11,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-const typed = new Typed('.multiple-text-home', {
-    strings: ['Frontend Developer', 'Web Developer', 'Backend Developer', 'Full Stack Developer'],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 1200,
-    loop: true,
-});
-
-const typedAbout = new Typed('.multiple-text-about', {
+const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Web Developer', 'Backend Developer', 'Full Stack Developer'],
     typeSpeed: 80,
     backSpeed: 80,
