@@ -19,6 +19,14 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 });
 
+const typeds = new Typed('.multiple-texts', {
+    strings: ['Frontend Developer', 'Web Developer', 'Backend Developer', 'Full Stack Developer'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1200,
+    loop: true,
+});
+
 document.querySelectorAll('.navbar a').forEach(link => {
     link.onclick = () => {
         menu.classList.remove('bx-x');
