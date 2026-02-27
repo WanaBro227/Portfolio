@@ -140,6 +140,7 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .social-media a {
@@ -227,6 +228,7 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
 }
 
 /* Services Section Code */
